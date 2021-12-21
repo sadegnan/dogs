@@ -16,7 +16,7 @@ const port = 3011;
 app.use(cors({origin: '*'}));
 
 router.get('/', (ctx) => {
-	ctx.body = 'hello!';
+	ctx.body = 'test1';
 });
 
 app.use(async (ctx, next) => {
